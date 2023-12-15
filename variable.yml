@@ -5,4 +5,4 @@
       vars:
         URL: abc.com
         ansible.builtin.debug:
-         msg : {{ "URL" }}
+         msg : "{{ URL }}"
