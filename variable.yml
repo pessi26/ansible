@@ -4,5 +4,5 @@
     - name: variable declare
       ansible.builtin.debug:
          msg : "{{ URL }}"
-         vars:
-           URL: abc.com
+      vars:
+          URL: abc.com
